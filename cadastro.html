@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/cadastro.css" >
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <img src="img/blackhammerlogo.png" alt="logo">
+        <header>Black Hammer Store</header>
+        <nav>
+          <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./produtos.html">Produtos</a></li>
+            <li><a href="./cadastro.html">Cadastro</a></li>
+          </ul>
+        </nav>
+        <main>
+          <form>
+            <fieldset>
+                <legend><b>Informações do cadastro</b></legend>
+    
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <br>
+                <br>
+
+                <label for="datanasc">Data de nascimento:</label>
+                <input type="date" id="datanasc" name="datanasc" required>
+                <br>
+                <br>
+                
+                <label for="newsl"> Desejo assinar a newslatter</label>
+                <input type="checkbox" id="newsl" name="news" value="1">
+                
+                <br>
+                <br>
+
+                <label for="quantity">Avalição da store(entre 1 e 5):</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="5">
+                <br>
+                <br>
+
+                <label for="name">Sugestões:</label>
+                <input type="text" id="sugest" name="sugest">
+    
+            </fieldset>
+        </form>
+        </main>
+        <footer>
+          <nav>
+            <ul>
+              <li><a>Sobre a nossa loja</a></li>
+              <li><a>Telefone (xx)xxxxx.xxxx</a></li>
+              <li><a>Endereço xyzqwerty123456</a></li>
+            </ul>
+          </nav>
+        </footer>
+    </div>
+
+</body>
+</html>
